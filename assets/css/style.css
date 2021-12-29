@@ -9,7 +9,7 @@ body{
     
 }
 
-.icon-box{
+ .icon-box , .footerclass{
     background-color: #17a3b8 ;
 }
 
@@ -18,4 +18,8 @@ body{
 }
 .quienessomos-title{
     border-color: #17b832;
+}
+.typeform{
+    width:85%;
+    height:400px;
 }
