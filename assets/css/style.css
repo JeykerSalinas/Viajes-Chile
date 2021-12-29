@@ -1,1 +1,21 @@
 /* #17a3b8 */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.icon-box{
+    background-color: #17a3b8 ;
+}
+
+.quienessomos-section{
+    background-color: #000;
+}
+.quienessomos-title{
+    border-color: #17b832;
+}
