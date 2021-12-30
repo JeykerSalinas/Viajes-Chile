@@ -2,17 +2,17 @@ $(window).scroll(
     function(){
         if($(window).width()>767){
         if($("#navbar").offset().top>800){
-            $("#navbar").addClass("bg-dark")
+            $("#navbar").addClass("negro")
         }
         else{
-            $("#navbar").removeClass("bg-dark")
+            $("#navbar").removeClass("negro")
         }}
         else{
-            if($("#navbar").offset().top>250){
-                $("#navbar").addClass("bg-dark")
+            if($("#navbar").offset().top>350){
+                $("#navbar").addClass("negro")
             }
             else{
-                $("#navbar").removeClass("bg-dark")
+                $("#navbar").removeClass("negro")
         }
     }}
 )
