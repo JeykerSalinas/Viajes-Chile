@@ -1,0 +1,19 @@
+$(window).scroll(
+    function(){
+        if($(window).width()>767){
+        if($("#navbar").offset().top>800){
+            $("#navbar").addClass("black-gradient")
+        }
+        else{
+            $("#navbar").removeClass("black-gradient")
+        }}
+        else{
+            if($("#navbar").offset().top>350){
+                $("#navbar").addClass("black-gradient")
+            }
+            else{
+                $("#navbar").removeClass("black-gradient")
+        }
+    }}
+)
+protected
