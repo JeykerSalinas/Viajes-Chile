@@ -16,10 +16,11 @@ body{
 .quienessomos-section{
     background-color: #000;
 }
-.quienessomos-title{
-    border-color: #17b832;
-}
+
 .typeform{
     width:85%;
     height:400px;
+}
+.lineclass{
+border-bottom: solid 1px #17a3b8
 }
