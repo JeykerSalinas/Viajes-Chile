@@ -1,0 +1,18 @@
+$(window).scroll(
+    function(){
+        if($(window).width()>767){
+        if($("#navbar").offset().top>800){
+            $("#navbar").addClass("bg-dark")
+        }
+        else{
+            $("#navbar").removeClass("bg-dark")
+        }}
+        else{
+            if($("#navbar").offset().top>250){
+                $("#navbar").addClass("bg-dark")
+            }
+            else{
+                $("#navbar").removeClass("bg-dark")
+        }
+    }}
+)
