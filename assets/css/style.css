@@ -1,15 +1,16 @@
 /* #17a3b8 */
 html{
     scroll-behavior: smooth;
+  
 }
 
 body{
     margin: 0;
     padding: 0;
-    
+  
 }
 
- .icon-box , .footerclass{
+ .icon-box , .footerclass , .card-body{
     background-color: #17a3b8 ;
 }
 
@@ -23,4 +24,7 @@ body{
 }
 .lineclass{
 border-bottom: solid 1px #17a3b8
+}
+.wider{
+    max-width: 1300px;
 }
