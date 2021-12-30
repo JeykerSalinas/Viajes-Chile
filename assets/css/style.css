@@ -1,49 +1,37 @@
-/* #17a3b8 */
-html{
+
+*{
+    /* margin: 0;
+    padding: 0; */
     scroll-behavior: smooth;
-
 }
 
-body{
-    margin: 0;
-    padding: 0;
-   
+.blue-background{
+    background-color: #17a3b8;
 }
 
- .icon-box , .footerclass , .card-body{
-    background-color: #17a3b8 ;
-}
-
-.quienessomos-section{
+.black-background{
     background-color: #000;
 }
 
 .typeform{
-    width:85%;
-    height:400px;
+    width:90%;
+    height:70vh;
 }
-.lineclass{
+
+.line-class{
 border-bottom: solid 1px #17a3b8
 }
-/* .wider{
-    max-width: 1300px;
-} */
 
 .card-img-top{
     height: 190px;
-}
-
-.text-center{
-    height: auto;
 }
 
 h2{
     font-size: 1.5rem !important;
 }
 
-.footer-icons{
+footer i{
     font-size: 1.2rem;
-    text-decoration: none;
 }
 .container-footer{
     height: 5vh;
@@ -51,10 +39,17 @@ h2{
     align-items: center;
 }
 
-a, a:visited, a:hover, a:active {
+footer a, a:visited, a:hover, a:active {
     color: inherit;
   }
 
-  .negro{
+  .black-gradient{
 background: linear-gradient(to bottom,  rgba(0,0,0,0.85) 2%,rgba(0,0,0,0.85) 70%,rgba(0,0,0,0) 100%);
 }
+
+/* @media (max-width: 480px) {
+    .typeform{
+        width:auto;
+        height:70vh;
+    }
+  } */
